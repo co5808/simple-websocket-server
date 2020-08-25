@@ -51,7 +51,7 @@ HANDSHAKE_STR = (
    "Upgrade: WebSocket\r\n"
    "Connection: Upgrade\r\n"
    "Sec-WebSocket-Accept: %(acceptstr)s\r\n\r\n"
-   "Sec-WebSocket-Protocol: chat, superchat\r\n\r\n"
+   "Sec-WebSocket-Protocol: soap\r\n\r\n"
 )
 
 FAILED_HANDSHAKE_STR = (
